@@ -1,0 +1,74 @@
+[
+    {
+      "nombre": "ADN BOX SET - La trilogía Completa",
+      "descripcion": "Contiene capítulos (A, D, N) Formato vinilo.",
+      "precio": 80000,
+      "stock": 20,
+      "imagen": "https://cdn.glitch.global/c02dd804-06e3-4c1d-b594-aaff3c4d3800/cd4.jpg?v=1728675195656"
+    },
+    {
+      "nombre": "Remera ADN",
+      "descripcion": "Tela: 100% Algodon - Talle: Unico",
+      "precio": 22500,
+      "stock": 15,
+      "imagen": "https://cdn.glitch.global/c02dd804-06e3-4c1d-b594-aaff3c4d3800/remeraadn.jpg?v=1728675364941"
+    },
+    {
+      "nombre": "Capitulo N - Los Auténticos Decadentes",
+      "descripcion": "Formato Vinilo Contiene 5 Canciones",
+      "precio": 28500,
+      "stock": 10,
+      "imagen": "https://cdn.glitch.global/c02dd804-06e3-4c1d-b594-aaff3c4d3800/vinilo.png?v=1728675486849"
+    },
+    {
+      "nombre": "Capítulo D - Los Auténticos Decadentes",
+      "descripcion": "Formato Vinilo Contiene 5 Canciones",
+      "precio": 30000,
+      "stock": 5,
+      "imagen": "https://cdn.glitch.global/c02dd804-06e3-4c1d-b594-aaff3c4d3800/vinilo5.jpeg?v=1728675590067"
+    },
+    {
+      "nombre": "Capítulo A - Los Auténticos Decadentes",
+      "descripcion": "Formato Vinilo Contiene 5 Canciones",
+      "precio": 30000,
+      "stock": 8,
+      "imagen": "https://cdn.glitch.global/c02dd804-06e3-4c1d-b594-aaff3c4d3800/vinilo6.jpeg?v=1728675661484"
+    },
+  
+    {
+      "nombre": "Fiesta Nacional",
+      "descripcion": "Formato Vinilo Contiene 5 Canciones",
+      "precio": 36000,
+      "stock": 25,
+      "imagen": "https://cdn.glitch.global/c02dd804-06e3-4c1d-b594-aaff3c4d3800/vinilo2.jpeg?v=1728676713207"
+    },
+    {
+      "nombre": "Mi Vida Loca",
+      "descripcion": "Formato Vinilo",
+      "precio": 32500,
+      "stock": 10,
+      "imagen": "https://cdn.glitch.global/c02dd804-06e3-4c1d-b594-aaff3c4d3800/vinilo3.jpg?v=1728676838332"
+    },
+    {
+      "nombre": "Foro Sol",
+      "descripcion": "Contiene 15 temas - Foro Sol cd+dvd ",
+      "precio": 12500,
+      "stock": 18,
+      "imagen": "https://cdn.glitch.global/c02dd804-06e3-4c1d-b594-aaff3c4d3800/cd3.jpeg?v=1728676938604"
+    },
+    {
+      "nombre": "Obras Cumbres",
+      "descripcion": "Obras Cumbres Contiene 2 CDS",
+      "precio": 10000,
+      "stock": 0,
+      "imagen": "https://cdn.glitch.global/c02dd804-06e3-4c1d-b594-aaff3c4d3800/cds.jpg?v=1728678370275"
+    },
+    {
+      "nombre": "Somos",
+      "descripcion": "Somos Contiene (CD+DVD) ",
+      "precio": 11000,
+      "stock": 6,
+      "imagen": "https://cdn.glitch.global/c02dd804-06e3-4c1d-b594-aaff3c4d3800/cds2.jpg?v=1728677168856"
+    }
+  ]
+  

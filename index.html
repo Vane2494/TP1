@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="index">
+    <div class="login-container">
+        <h1>Iniciar Sesión</h1>
+        <form id="loginForm" action="home.html" onsubmit="return validarFormulario()">
+            <label for="username">Nombre de Usuario:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <div>      
+            <label for="checkbox">
+            <input type="checkbox" id="checkbox" name="checkbox"  onclick="mostrarInputsDinamicos()"> Acepto los términos y condiciones
+            </label> 
+             </div><br>
+              <div id="input-container"> </div>
+           
+          <button type="submit">Ingresar</button>
+          
+        </form>
+       
+      <div id="resultado-fecha" style="margin-top: 20px; color: red;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

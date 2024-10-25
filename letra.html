@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discografia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body >
+     <div id="header"></div>
+   <div class="container-buscador">
+     
+     <form class="buscador" action="" onsubmit="return cargaLetra(event);">
+        <label for="cancionName"> Ingresa el nombre de la cancion</label>
+        <input type="text" id="cancionName" name="cancionName" placeholder="¿Cual cancion buscas?" required>
+        <button type="submit">Buscar</button>
+    </form>
+  </div>
+    <main>
+     <div class="letrascontainer" id="cancion">
+            
+    </div>
+    </main>        
+       
+     <div id="footer"></div>
+  
+</body>
+</html>
