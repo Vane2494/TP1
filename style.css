@@ -406,3 +406,18 @@ h3{
   
 }
 
+/*Modo Oscuro*/
+
+@media (prefers-color-scheme: dark) {
+  header { background-color: #727272; 
+   } 
+    footer{
+     background-color:#727272;  
+    }
+   
+   button, .accept-btn{
+     background-color: #727272;
+   }
+  
+      
+ }
