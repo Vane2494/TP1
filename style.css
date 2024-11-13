@@ -121,7 +121,7 @@ h2{
   }
 
 header{
-    position: relative;
+    
     white-space: nowrap;
     background-color: #000000;
     width: 100%;
@@ -129,6 +129,12 @@ header{
     top: -20px;
     left: 0px;
    
+}
+
+.nav {
+  
+  align-items: center;
+  justify-content: center;
   
 }
 
@@ -144,8 +150,9 @@ header{
  
 }
 .container-img {
-    display: block;
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     margin:10px;
     
 }
@@ -174,7 +181,7 @@ nav{
   height: 100px;
   bottom: -80px;
   text-align: center;
-  padding:20px;
+  padding:5px;
   justify-content: center;
   
 }
@@ -194,8 +201,9 @@ nav span:hover{
 }
 
 .container-video{
-    display: block;
-    margin-left: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     margin-right: auto; 
     max-width: 100%; 
     height: auto;
@@ -421,3 +429,40 @@ h3{
   
       
  }
+
+ /*Ajax*/
+
+ #contentContainer {
+  margin:50px; 
+  padding: 50px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s;
+  
+}
+
+/* Transición suave para contenido cargado */
+#contentContainer div {
+  font-size: 18px;
+  color: #beb5bb;
+  margin: 0;
+}
+
+/* Alinear el contenedor y hacerlo responsivo */
+#contentContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.botonD{
+  display: inline-block;
+  padding: .7rem 1.5rem;
+  margin: .7rem;
+  width:15%;
+}
+
+.contenedorVideos{
+  margin-left: 15%;
+ padding:2%;
+}
