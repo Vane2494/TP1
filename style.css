@@ -467,7 +467,7 @@ h3{
 }
 
 .contenedorVideos{
-
+  margin-left: 10%;
  padding:2%;
  display: flex;
  justify-content: center;
@@ -507,11 +507,16 @@ h3{
       cursor: pointer;
       color: white;
       font-size: 24px;
+      ;
+
   }
 
   .nav-menu.active {
       display: flex;
       flex-direction: column;
+      position: absolute;
+      left: 43%;
+      bottom: 180px;
   }
 
   .nav-menu li {
@@ -523,5 +528,8 @@ h3{
     
     }
 
+    .contenedorVideos{
+      margin-left: 5%;
+         }
 }
 

@@ -318,7 +318,18 @@ document.getElementById('conciertos').addEventListener('click', function() {
 
 // Footer
 
+
 document.querySelector('.nav-toggle').addEventListener('click', function() {
     this.classList.toggle('active');
     document.querySelector('.nav-menu').classList.toggle('active');
-});
+  });
+
+  
+function mostrarMenu(){
+    const navMenu = document.querySelector('.nav-menu');
+    if( navMenu.classList.contains('active') ){
+      navMenu.classList.remove('active');
+    }else{
+      navMenu.classList.toggle('active');
+    }
+  }
