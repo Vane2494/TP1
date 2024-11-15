@@ -467,8 +467,11 @@ h3{
 }
 
 .contenedorVideos{
-  margin-left: 15%;
+
  padding:2%;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
 }
 
 .nav-icon , .nav-toggle{
