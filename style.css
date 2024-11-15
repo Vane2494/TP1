@@ -520,8 +520,8 @@ h3{
       flex-direction: column;
       position: absolute;
       left: 43%;
-      bottom: 180px;
-      
+      bottom: 160px;
+      background-color: white;
   }
 
   .nav-menu li {
@@ -541,6 +541,10 @@ h3{
 }
 .logo{
   margin-left: 35%;
+  }
+
+  #contentContainer{
+    padding: 0;
   }
 
 }
