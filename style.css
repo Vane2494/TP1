@@ -24,6 +24,8 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width:20%;
+    min-width: 300px;
+    min-height: 300px;
 }
 
 .container{
@@ -33,7 +35,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width:20%;
-   
+    min-width: 300px;
 }
 
 input {
@@ -52,6 +54,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
+    min-width: 150px;
 }
 
 button:hover {
@@ -343,6 +346,7 @@ h3{
     box-sizing: border-box;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    min-width: 150px;
 }
 
 .card img {
@@ -511,5 +515,10 @@ h3{
       text-align: center;
       margin: 5px 0;
   }
+  .login-container, .landing-container {
+    width:0;
+    
+    }
+
 }
 
