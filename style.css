@@ -389,9 +389,9 @@ h3{
 /*Letras*/
 
 .letrascontainer{
-      background-color: black;
+      
       text-align: center;
-      color:white;
+     
       width: 40%;
       border-radius: 8px;
       margin:25px;
@@ -466,3 +466,50 @@ h3{
   margin-left: 15%;
  padding:2%;
 }
+
+.nav-icon , .nav-toggle{
+  display: none; /* Ocultamos los iconos en pantallas grandes */
+}
+.nav-menu {
+  list-style-type: none;
+  margin: 15px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-menu li {
+  display: inline-block;
+}
+@media (max-width: 1024px) {
+  .nav-text {
+      display: none; /* Ocultamos el texto */
+  }
+  .nav-icon {
+      display: inline-block; /* Mostramos los iconos */
+  }
+}
+
+/* Pantallas pequeñas (menos de 768px) */
+@media (max-width: 480px) {
+  .nav-menu {
+      display: none; /* Ocultamos el menú */
+  }
+
+  .nav-toggle {
+      display: block;
+      cursor: pointer;
+      color: white;
+      font-size: 24px;
+  }
+
+  .nav-menu.active {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .nav-menu li {
+      text-align: center;
+      margin: 5px 0;
+  }
+}
+
