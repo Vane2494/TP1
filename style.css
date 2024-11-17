@@ -431,7 +431,14 @@ h3{
      background-color: #727272;
    }
   
-      
+   body , nav {
+    background-color:lightgray;
+   }
+.container-buscador {
+  background-color:lightgray;
+}
+ 
+     
  }
 
  /*Ajax*/
